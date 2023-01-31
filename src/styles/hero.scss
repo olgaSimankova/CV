@@ -1,0 +1,34 @@
+@import 'mixins';
+@import 'fonts';
+
+.portrait {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0 2rem;
+
+    &_img {
+        width: 17rem;
+        height: 17rem;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.hero {
+    width: 24rem;
+    padding: 4rem 1rem 2rem;
+    color: #374f59;
+
+    &_title {
+        @include font(3.8rem, 300, 1.25);
+    }
+
+    &_subtitle {
+        width: 10rem;
+        font-family: 'RobotoCondensed', sans-serif;
+        @include font(1.3rem, 300, 1.25);
+        padding-top: 1rem;
+    }
+}
