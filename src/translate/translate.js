@@ -10,6 +10,9 @@ const i18Obj = {
         references: 'REFERENCES',
         refAleh: 'Aleh Harnizonau (tg: @olegar87)',
         refAlehEpam: 'EPAM Software Engineer',
+        education: 'EDUCATION',
+        university: 'State University of Management',
+        faculty: 'Transport and Logistics Management 2010',
     },
     ru: {
         myName: 'Симанкова Ольга',
@@ -22,5 +25,8 @@ const i18Obj = {
         references: 'РЕКОМЕНДАЦИИ',
         refAleh: 'Олег Гарнизонов (телеграм: @olegar87)',
         refAlehEpam: 'Мидл разработчик в EPAM',
+        education: 'ОБРАЗОВАНИЕ',
+        university: 'Государственный Университет Управления',
+        faculty: 'Управление на транспорте 2010',
     },
 };

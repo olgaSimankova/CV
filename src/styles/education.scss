@@ -1,0 +1,9 @@
+.education {
+    .section-subtitle {
+        margin: 1rem 0;
+        @include font(1rem, 700, 1);
+    }
+    p {
+        width: 13rem;
+    }
+}

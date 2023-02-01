@@ -19,7 +19,7 @@
 
 .hero {
     width: 24rem;
-    padding: 4rem 1rem 2rem;
+    padding: 4rem 0 2rem;
     color: $mainColor;
 
     &_title {
@@ -29,7 +29,7 @@
     &_subtitle {
         width: 10rem;
         font-family: 'Montserrat', sans-serif;
-        @include font(1.3rem, 300, 1.25);
+        @include font(1.3rem, 300, 1.5rem);
         padding-top: 1rem;
     }
 }
