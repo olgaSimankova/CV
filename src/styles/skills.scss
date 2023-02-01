@@ -1,0 +1,10 @@
+.skills_list {
+    font-family: 'Oswald', sans-serif;
+    @include font(0.9rem, 400, 1rem);
+    color: $mainColor;
+    margin-left: 1.2rem;
+
+    &_item {
+        list-style: disc;
+    }
+}

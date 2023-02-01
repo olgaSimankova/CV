@@ -1,0 +1,10 @@
+.contact {
+    font-family: 'Oswald', sans-serif;
+    @include font(0.9rem, 400, 1.6rem);
+    color: $mainColor;
+    &_icon {
+        height: auto;
+        width: 20px;
+        margin: 5px;
+    }
+}

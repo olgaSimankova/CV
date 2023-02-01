@@ -1,7 +1,10 @@
 @import 'styles/null.scss';
 @import 'styles/hero.scss';
+@import 'styles/contact.scss';
+@import 'styles/skills.scss';
 @import 'styles/fonts';
 @import 'styles/mixins';
+@import 'styles/constants';
 
 .main_container {
     max-width: 968px;
@@ -11,10 +14,21 @@
 
     .left-section {
         width: 40%;
-        background-color: #cbe5ef;
+        background-color: $mainGg;
+        padding: 1rem;
     }
 
     .right-section {
         width: 60%;
+    }
+
+    .section {
+        margin: 1.5rem 0;
+        &-title {
+            @include font(18px, 700, 1rem);
+            font-family: 'Montserrat', Arial, sans-serif;
+            color: $mainColor;
+            margin: 1rem 0;
+        }
     }
 }
