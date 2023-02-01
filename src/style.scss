@@ -24,6 +24,10 @@
 
     .section {
         margin: 1.5rem 0;
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.9rem;
+        color: $mainColor;
+
         &-title {
             @include font(18px, 700, 1rem);
             font-family: 'Montserrat', Arial, sans-serif;
