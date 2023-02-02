@@ -2,11 +2,31 @@
 @import 'fonts';
 @import 'constants';
 
+.portrait_media {
+    display: none;
+    width: 100%;
+
+    @media (max-width: 890px) {
+        display: block;
+        text-align: center;
+    }
+
+    .portrait_img {
+        @media (max-width: 890px) {
+            margin: 0 auto;
+        }
+    }
+}
+
 .portrait {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
+
+    @media (max-width: 890px) {
+        display: none;
+    }
 
     &_img {
         width: 17rem;
@@ -14,6 +34,11 @@
         border-radius: 50%;
         object-fit: cover;
         object-position: top;
+
+        @media (max-width: 890px) {
+            width: 14rem;
+            height: 14rem;
+        }
     }
 }
 
@@ -21,9 +46,18 @@
     width: 24rem;
     padding: 4rem 0 2rem;
     color: $mainColor;
+    margin: 0 auto;
+    @media (max-width: 890px) {
+        width: 100%;
+    }
 
     &_title {
         @include font(3.8rem, 300, 1.25);
+        @media (max-width: 890px) {
+            @include font(2.8rem, 300, 1.25);
+            text-align: center;
+            margin: 0 auto;
+        }
     }
 
     &_subtitle {
@@ -31,5 +65,10 @@
         font-family: 'Montserrat', sans-serif;
         @include font(1.3rem, 300, 1.5rem);
         padding-top: 1rem;
+
+        @media (max-width: 890px) {
+            text-align: center;
+            margin: 0 auto;
+        }
     }
 }
