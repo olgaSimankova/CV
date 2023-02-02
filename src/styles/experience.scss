@@ -1,0 +1,13 @@
+.experience {
+    .section-subtitle {
+        margin: 1rem 0;
+        @include font(1rem, 700, 1);
+    }
+}
+.experience_list {
+    color: $mainColor;
+    margin-left: 1.2rem;
+    &_item {
+        list-style: disc;
+    }
+}
